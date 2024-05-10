@@ -17,7 +17,7 @@ root.render(
 
 function TestReact(): JSX.Element {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/react-app'>
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/test" element={<App2 />} />
